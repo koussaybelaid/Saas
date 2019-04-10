@@ -1,0 +1,13 @@
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Solution.Service.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Solution.Service.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Service.Pattern.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Solution.Data.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Solution.Domain.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\EntityFramework.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Service.Pattern.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Solution.Data.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Solution.Domain.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\EntityFramework.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\obj\Debug\Solution.Service.csprojResolveAssemblyReference.cache
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\obj\Debug\Solution.Service.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\obj\Debug\Solution.Service.pdb

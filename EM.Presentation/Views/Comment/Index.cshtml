@@ -1,0 +1,86 @@
+﻿@model IEnumerable<EM.Presentation.Models.CommentVM>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+}
+
+<h2>WELCOME TO CHATROOM</h2>
+
+
+<table class="table text-center" id="table" align="center">
+    <tr style="border:1px solid black"> 
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+         <td>
+            @Html.DisplayFor(modelItem => item.ParticipantId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Text)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreatedOn)
+        </td>
+       
+        <td>
+            @Html.ActionLink("Edit", "Edit2", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+</table>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("textarea").toggle();
+  });
+});
+</script>
+<body>
+    <textarea id="comm" placeholder="votre commentaire"></textarea>
+    <button class="btn btn-rose" id="show">Mettre un commentaire<div class="ripple-container"></div></button>
+
+
+   
+
+</body>
+@section scripts{
+<script>
+    $(function() {
+        function getContent(){
+            return document.getElementById("comm").value
+        }
+
+        $("#comm").keyup(function (e){
+            var keycode = (event.keyCode ? event.keyCode : event.which);
+            if(keycode == '13'){
+                
+                var contenu = document.getElementById("comm").value;
+                if (contenu == "") {
+                    window.console("un commentaire  ne peut pas etre vide ");
+                }
+                else {
+
+                    $.ajax({
+                        url: '@Url.Action("Create", "Comment")' + "?contenu=" + contenu,
+                        type: "POST",
+                        success: function (result) {
+                            $('#table').append(result)
+                            $("#comm").val("")
+                        }
+                        
+                    })
+                    
+                }
+            }
+
+
+        })
+    });
+</script>
+}

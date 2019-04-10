@@ -1,0 +1,136 @@
+﻿@using Microsoft.AspNet.Identity
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/Backend/Login/css/google-fonts.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/Backend/Login/css/font-awesome.css")">
+    <!-- Material Kit CSS -->
+    <link href="@Url.Content("~/Content/Backend/Dashboard/css/material-dashboard.css")" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper ">
+        <div class="sidebar" data-color="purple" data-background-color="white">
+            <!--
+                Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
+
+                Tip 2: you can also add an image using data-image tag
+            -->
+            <div class="logo">
+                <a href="http://www.creative-tim.com" class="simple-text logo-mini">
+                    CT
+                </a>
+                <a href="http://www.creative-tim.com" class="simple-text logo-normal">
+                    Creative Tim
+                </a>
+            </div>
+            <div class="sidebar-wrapper">
+                <ul class="nav">
+                    <li class="nav-item @RenderSection("active_dashboard",required: false)">
+                        <a class="nav-link" href="@Url.Action("Index","Tenant", new { area = "Tenant" })">
+                            <i class="material-icons">dashboard</i>
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                    <li class="nav-item @RenderSection("active_myprofile",required: false)">
+                        <a class="nav-link" href="@Url.Action("UserProfile","Tenant", new { area = "Tenant" })">
+                            <i class="material-icons">person</i>
+                            <p>My Profile</p>
+                        </a>
+                    </li>
+                    <li class="nav-item @RenderSection("active_event",required: false)">
+                        <a class="nav-link" href="@Url.Action("Home","Evenement", new { area = "Tenant" })">
+                            <i class="material-icons">person</i>
+                            <p>Events</p>
+                        </a>
+                    </li>
+                    <!-- your sidebar here -->
+                </ul>
+            </div>
+        </div>
+        <div class="main-panel">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+                <div class="container-fluid">
+                    <div class="navbar-wrapper">
+                        <a class="navbar-brand">@RenderSection("page",required: true)</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="navbar-toggler-icon icon-bar"></span>
+                        <span class="navbar-toggler-icon icon-bar"></span>
+                        <span class="navbar-toggler-icon icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("Home","Home", new { area =""})">
+                                    <i class="material-icons">home</i>
+                                </a>
+                            </li>
+                            
+                            @using (Html.BeginForm("LogOff", "Tenant", new { area = "Tenant" } , FormMethod.Post, new { id = "logoutForm"}))
+                            {
+                            @Html.AntiForgeryToken()
+                            <li class="nav-item dropdown">                               
+                                <a class="nav-link" id="navbarDropdownProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    @User.Identity.GetUserName() <i class="material-icons">person</i> 
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
+                                    <a class="dropdown-item" href="@Url.Action("UserProfile","Tenant",new { area ="Tenant"})">Profile</a>
+                                    <a class="dropdown-item" href="#">Settings</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="javascript:document.getElementById('logoutForm').submit()">Log out</a>
+                                </div>
+                                
+                            </li>
+                            }
+                            <!-- your navbar here -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navbar -->
+            <div class="content">
+                <div class="container-fluid">
+                    @RenderBody()
+                    <!-- your content here -->
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <nav class="float-left">
+                        <ul>
+                            <!---- NAV LEFT-->
+                        </ul>
+                    </nav>
+                    <div class="copyright float-right">
+                        &copy; ACloud Guru 
+                    <!-- your footer here -->
+                </div>
+            </footer>
+        </div>
+    </div>   
+    <script src="@Url.Content("~/Content/Backend/Dashboard/js/core/jquery.min.js")">
+        $(function () {                       //run when the DOM is ready
+            $(".nav-item").click(function () {  //use a class, since your ID gets mangled
+                $(this).addClass("active");      //add the class to the clicked element
+            });
+        });
+    </script>
+
+    <!--   Core JS Files   -->
+    <script src="@Url.Content("~/Content/Backend/Dashboard/js/core/jquery.min.js")"></script>
+    <script src="@Url.Content("~/Content/Backend/Dashboard/js/core/popper.min.js")"></script>
+    <script src="@Url.Content("~/Content/Backend/Dashboard/js/core/bootstrap-material-design.min.js")"></script>
+    <script src="@Url.Content("~/Content/Backend/Dashboard/js/plugins/perfect-scrollbar.jquery.min.js")"></script>
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>

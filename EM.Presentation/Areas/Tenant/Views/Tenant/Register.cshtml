@@ -1,0 +1,66 @@
+﻿@model EM.Presentation.Areas.Tenant.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Areas/Tenant/Views/Shared/_Register.cshtml";
+}
+
+<div class="section section-signup page-header" style="background-image: url('@Url.Content("~/Content/Backend/Login/img/background-image.jpg")');">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+                <div class="card card-login">
+                    @using (Html.BeginForm("Register", "Tenant", new { area = "Tenant" }, FormMethod.Post, new { role = "form" }))
+            {
+                        @Html.AntiForgeryToken()
+                        <div class="card-header card-header-primary text-center">
+                            <h4 class="card-title">Create a new account</h4>
+                        </div>
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <p class="description text-center">Your Event Guru</p>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="material-icons">face</i>
+                                    </span>
+                                </div>
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Email..." })
+                                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="material-icons">lock_outline</i>
+                                    </span>
+                                </div>
+                                @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeholder = "Password..." })
+                                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="material-icons">lock_outline</i>
+                                    </span>
+                                </div>
+                                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", @placeholder = "Confirm Password..." })
+                                @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="material-icons">how_to_reg</i>
+                                    </span>
+                                </div>
+                                @Html.TextBoxFor(m => m.Tenant, new { @class = "form-control", @placeholder = "Tenant..." })
+                                @Html.ValidationMessageFor(m => m.Tenant, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="footer text-center">
+                            <input type="submit" value="Register" class="btn btn-primary btn-link btn-wd btn-lg">
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

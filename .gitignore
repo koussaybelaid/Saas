@@ -1,0 +1,8 @@
+*.mdf
+
+*.ldf
+.vs
+
+.vs/*
+packages
+packages/*

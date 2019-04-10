@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Registered";
+    Layout = "~/Views/Shared/_Registered.cshtml";
+}
+
+<div class="main main-raised">
+    <div class="profile-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 ml-auto mr-auto">
+                    <div class="profile">
+                        <div class="avatar">
+                            <img src="@Url.Content("~/Content/Backend/Login/img/president.png")" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+                        </div>
+                        <div class="name">
+                            <h3 class="title">@ViewData["Email"]</h3>
+                            <h6>President</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="description text-center">
+                <div class="alert alert-success">
+                    <div class="container">
+                        <div class="alert-icon">
+                            <i class="material-icons">check</i>
+                        </div>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true"><i class="material-icons">clear</i></span>
+                        </button>
+                        <b>Success Alert:</b> Your account has been created successfully.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

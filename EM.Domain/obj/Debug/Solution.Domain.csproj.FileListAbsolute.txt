@@ -1,0 +1,10 @@
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Domain\bin\Debug\Solution.Domain.dll.config
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Domain\bin\Debug\Solution.Domain.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Domain\bin\Debug\Solution.Domain.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Domain\bin\Debug\EntityFramework.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Domain\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Domain\bin\Debug\EntityFramework.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Domain\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Domain\obj\Debug\Solution.Domain.csprojResolveAssemblyReference.cache
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Domain\obj\Debug\Solution.Domain.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Domain\obj\Debug\Solution.Domain.pdb

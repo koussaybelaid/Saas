@@ -1,0 +1,67 @@
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Solution.Domain\bin\Debug\Solution.Domain.dll.config
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Solution.Domain\bin\Debug\Solution.Domain.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Solution.Domain\bin\Debug\Solution.Domain.pdb
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Solution.Domain\bin\Debug\EntityFramework.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Solution.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Solution.Domain\bin\Debug\EntityFramework.xml
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Solution.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Solution.Domain\obj\Debug\Solution.Domain.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Solution.Domain\obj\Debug\Solution.Domain.pdb
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\EM.Domain\bin\Debug\EM.Domain.dll.config
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\EM.Domain\bin\Debug\EM.Domain.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\EM.Domain\bin\Debug\EM.Domain.pdb
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\EM.Domain\bin\Debug\EntityFramework.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\EM.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\EM.Domain\bin\Debug\EntityFramework.xml
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\EM.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\EM.Domain\obj\Debug\EM.Domain.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\EM.Domain\obj\Debug\EM.Domain.pdb
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\EM.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\EM.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\EM.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\EM.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\bin\Debug\EM.Domain.dll.config
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\bin\Debug\EM.Domain.dll
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\bin\Debug\EM.Domain.pdb
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\obj\Debug\EM.Domain.csprojAssemblyReference.cache
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\obj\Debug\EM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\obj\Debug\EM.Domain.csproj.CopyComplete
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\obj\Debug\EM.Domain.dll
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\EM.Domain\obj\Debug\EM.Domain.pdb
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\EM.Domain.dll.config
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\EM.Domain.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\EM.Domain.pdb
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Microsoft.Owin.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Owin.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Microsoft.Owin.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\obj\Debug\EM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\obj\Debug\EM.Domain.csproj.CopyComplete
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\obj\Debug\EM.Domain.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\obj\Debug\EM.Domain.pdb
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\EM.Domain\obj\Debug\EM.Domain.csprojAssemblyReference.cache

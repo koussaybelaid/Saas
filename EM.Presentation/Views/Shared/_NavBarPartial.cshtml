@@ -1,0 +1,68 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Tenant", new { area = "Tenant" }, FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">               
+                @if (User.IsInRole("President") | User.IsInRole("Organizer"))
+                {
+                <li class="active nav-item">
+                    <a href="@Url.Action("Index", "Tenant",new { area ="Tenant"})" class="nav-link">
+                        Dashboard  <i class="material-icons">dashboard</i>
+                    </a>
+                </li>
+                }
+                else if (User.IsInRole("Administrator"))
+                {
+                    <li class="active nav-item">
+                        <a href="@Url.Action("TenantValidation", "Tenant",new { area ="Tenant"})" class="nav-link">
+                            Dashboard  <i class="material-icons">dashboard</i> 
+                        </a>
+                    </li>
+                }                
+                <li class="nav-item dropdown">
+                    <a class="nav-link" id="navbarDropdownProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        @User.Identity.GetUserName() <i class="material-icons">person</i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
+                        @if (User.IsInRole("President") | User.IsInRole("Organizer"))
+                        {
+                            <a class="dropdown-item" href="@Url.Action("UserProfile", "Tenant", new { area = "Tenant"})">Profile</a>
+                        }
+                        else if (User.IsInRole("Participant"))
+                        {
+                            <a class="dropdown-item" href="@Url.Action("ParticipantProfile", "Participant")">Profile</a>
+                        }
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="javascript:document.getElementById('logoutForm').submit()">Log out</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    }
+}
+else
+{
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                @(Html.ActionLink("Sign In", "Login","Home", null, new { @class = "btn btn-rose btn-raised btn-round" }))
+            </li>
+        </ul>
+    </div>
+
+    @section scripts {
+        <script src="@Url.Content("~/Content/Backend/Dashboard/js/core/jquery.min.js")"></script>
+        <script src="@Url.Content("~/Content/Backend/Dashboard/js/core/popper.min.js")"></script>
+        <script src="@Url.Content("~/Content/Backend/Dashboard/js/core/bootstrap-material-design.min.js")"></script>
+        <script src="@Url.Content("~/Content/Backend/Dashboard/js/plugins/perfect-scrollbar.jquery.min.js")"></script>
+    }
+}
+
+
+
+
+

@@ -1,0 +1,64 @@
+﻿@model IEnumerable<EM.Presentation.Areas.Tenant.Models.TenantValidationViewModel>
+
+@{
+    ViewBag.Title = "TenantValidation";
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+}
+
+<div class="tim-typo">
+    <h2 class="title">
+        Tenant account validation 
+    </h2>
+</div>
+@if ( Model.Any())
+{
+
+    <table class="table">
+        <tr>
+            <th>
+                Email
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                Organization
+            </th>
+            <th></th>
+        </tr>
+        
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Organization)
+                </td>
+                <td>
+                    @Html.ActionLink("Validate", "TenantActivation", new { area = "Tenant", id = item.Id }, new { @class = "btn btn-rose btn-raised btn-primary" })
+                    @Html.ActionLink("Reject", "TenantReject", new { area= "Tenant" , id = item.Id }, new { @class = "btn btn-rose btn-raised btn-primary" })
+                </td>
+            </tr>
+        }
+
+    </table>
+}
+else
+{
+    <div class="alert alert-info">
+        <div class="container">
+            <div class="alert-icon">
+                <i class="material-icons">info_outline</i>
+            </div>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true"><i class="material-icons">clear</i></span>
+            </button>
+            <b>Info alert:</b> There is any tenant waiting for validation
+        </div>
+    </div>
+}

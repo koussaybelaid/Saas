@@ -1,0 +1,129 @@
+﻿@using EM.Presentation.Areas.Tenant.Models
+@model ChangePasswordTenantViewModel
+
+@{ 
+    var president = "President";
+    var organizer = "Organizer";
+}
+@section page {
+    My Profile
+}
+@section active_myprofile {
+    active
+}   
+
+@if (TempData["passowrd"] != null && @TempData["password"].Equals("true"))
+{
+    <div class="alert alert-info">
+        <div class="container">
+            <div class="alert-icon">
+                <i class="material-icons">info_outline</i>
+            </div>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true"><i class="material-icons">clear</i></span>
+            </button>
+            <b>Info alert:</b> Your password has beed updated succesfully
+        </div>
+    </div>
+}
+
+@if (TempData["organizer"] != null && @TempData["organizer"].Equals("true"))
+{
+    <div class="alert alert-info">
+        <div class="container">
+            <div class="alert-icon">
+                <i class="material-icons">info_outline</i>
+            </div>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true"><i class="material-icons">clear</i></span>
+            </button>
+            <b>Info alert:</b> Organizer created successfully.
+        </div>
+    </div>
+}
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header card-header-primary">
+                <h4 class="card-title">Edit Profile</h4>
+                <p class="card-category">Change your password</p>
+            </div>
+            <div class="card-body">
+                @using (Html.BeginForm("UserProfile", "Tenant", new { area = "Tenant" }, FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Current password</label>
+                                @Html.PasswordFor(m => m.OldPassword, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.OldPassword, "", new { @class = "text-danger" })
+                            </div>
+                        </div>                    
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">New password</label>
+                                @Html.PasswordFor(m => m.NewPassword, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.NewPassword, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Current password</label>
+                                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pull-right">
+                        <button type="submit" class="btn btn-primary pull-right">Change Password</button>
+                        <div class="clearfix"></div>
+                    </div>                
+                }
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card card-profile">
+            <div class="card-avatar">
+                    <img class="img" src="@Url.Content("~/Content/Backend/Login/img/president.png")" />
+            </div>
+            <div class="card-body">
+                <h6 class="card-category text-gray">@if (User.IsInRole("President")) { @(@president + " from " + @ViewData["TenantName"]) } else if (User.IsInRole("Organizer")) { @(@organizer +" of " + @ViewData["TenantName"]) }</h6>
+                <h4 class="card-title">@User.Identity.Name </h4>                 
+                @if (User.IsInRole("President"))
+                {
+                    <br />
+                    <br />
+                    <button id="create_organizer" class="btn btn-primary pull-right">Create Organizer</button>
+                    <div id="organizer_form" style="display: none">
+                        <br />
+                        <br />
+                        <br />
+                        @Html.Partial("_CreateOrganizer")
+                    </div>
+                }
+                
+
+                
+            </div>
+        </div>
+    </div>      
+    @section scripts {
+    @Scripts.Render("~/bundles/jquery")
+    <script>
+    $(document).ready(function(){
+    $("#create_organizer").click(function(){
+    $("#organizer_form").show();
+    });
+    });
+    </script>
+    }  
+
+</div>
+

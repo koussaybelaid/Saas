@@ -1,0 +1,53 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Home", new { area = "" } , FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage", @class = "nav-link" })
+                </li>
+                @if (User.IsInRole("President") | User.IsInRole("Organizer"))
+                {
+                    <li class="active nav-item">
+                        <a href="@Url.Action("Index", "Tenant",new { area ="Tenant"})" class="nav-link">
+                            <i class="material-icons">dashboard</i> Dashboard
+                        </a>
+                    </li>
+                }
+                else if (User.IsInRole("Administrator"))
+                {
+                    <li class="active nav-item">
+                        <a href="@Url.Action("TenantValidation", "Tenant",new { area ="Tenant"})" class="nav-link">
+                            <i class="material-icons">dashboard</i> Dashboard
+                        </a>
+                    </li>
+                }
+                else
+                {
+                    <li class="active nav-item">
+                        <a href="@Url.Action("Profile", "Participant")" class="nav-link">
+                            <i class="material-icons">dashboard</i> Profile
+                        </a>
+                    </li>
+                }
+                <li class="nav-item">
+                    <a href="javascript:document.getElementById('logoutForm').submit()" class="btn btn-rose btn-raised btn-round">Log off</a>
+                </li>
+            </ul>
+        </div>
+    }
+}
+else
+{
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                @(Html.ActionLink("Sign In", "Login", "Home", new { area = "" }, new { @class = "btn btn-rose btn-raised btn-round" }))
+            </li>
+        </ul>
+    </div>
+
+}

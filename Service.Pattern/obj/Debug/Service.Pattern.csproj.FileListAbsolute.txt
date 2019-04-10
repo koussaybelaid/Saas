@@ -1,0 +1,80 @@
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Service.Pattern\bin\Debug\Service.Pattern.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Service.Pattern\bin\Debug\Service.Pattern.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Service.Pattern\bin\Debug\Solution.Data.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Service.Pattern\bin\Debug\EntityFramework.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Service.Pattern\bin\Debug\Solution.Data.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Service.Pattern\bin\Debug\EntityFramework.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Service.Pattern\obj\Debug\Service.Pattern.csprojResolveAssemblyReference.cache
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Service.Pattern\obj\Debug\Service.Pattern.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Service.Pattern\obj\Debug\Service.Pattern.pdb
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\bin\Debug\Service.Pattern.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\bin\Debug\Service.Pattern.pdb
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\bin\Debug\EM.Data.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\bin\Debug\EntityFramework.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\bin\Debug\EM.Domain.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\bin\Debug\EM.Data.pdb
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\bin\Debug\EntityFramework.xml
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\bin\Debug\EM.Domain.pdb
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\obj\Debug\Service.Pattern.csprojResolveAssemblyReference.cache
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\obj\Debug\Service.Pattern.dll
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\obj\Debug\Service.Pattern.pdb
+C:\Users\qdel\Desktop\ESPRIT\4ème\Semestre 2\PI-SaaS\App\Service.Pattern\bin\Debug\Service.Pattern.dll.config
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\Service.Pattern.dll.config
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\Service.Pattern.dll
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\Service.Pattern.pdb
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\EM.Data.dll
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\EM.Domain.dll
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\EntityFramework.dll
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\EM.Data.pdb
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\EM.Data.dll.config
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\EM.Domain.pdb
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\EM.Domain.dll.config
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\bin\Debug\EntityFramework.xml
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\obj\Debug\Service.Pattern.csprojAssemblyReference.cache
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\obj\Debug\Service.Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\obj\Debug\Service.Pattern.csproj.CopyComplete
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\obj\Debug\Service.Pattern.dll
+C:\Users\Belaid\Desktop\event-manager-saas-application-dotnet-part-master (1)\event-manager-saas-application-dotnet-part-master\Service.Pattern\obj\Debug\Service.Pattern.pdb
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Service.Pattern.dll.config
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Service.Pattern.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Service.Pattern.pdb
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\EM.Data.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\EntityFramework.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Microsoft.Owin.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Owin.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\EM.Domain.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\EM.Data.pdb
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\EM.Data.dll.config
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\EntityFramework.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Microsoft.Owin.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\EM.Domain.pdb
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\bin\Debug\EM.Domain.dll.config
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\obj\Debug\Service.Pattern.csprojAssemblyReference.cache
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\obj\Debug\Service.Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\obj\Debug\Service.Pattern.csproj.CopyComplete
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\obj\Debug\Service.Pattern.dll
+C:\Users\Belaid\Desktop\event-manager\Identity_Framework\Service.Pattern\obj\Debug\Service.Pattern.pdb
