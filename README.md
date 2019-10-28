@@ -1,2 +1,2 @@
-# Advyteam
-integration project javaEE (Esprit)
+# Saas EventManager as a service
+integration project javaEE (Esprit) 
